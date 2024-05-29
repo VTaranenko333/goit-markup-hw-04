@@ -488,6 +488,10 @@ header {
 
 }
 
+.footer-logo-div {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -513,13 +517,11 @@ header {
   max-width: 264px;
   display: flex;
   flex-direction: column;
-  margin-right: 120px;
 }
 
 .footer-container {
   display: flex;
   align-items: baseline;
-
 }
 
 .footer-socials {
