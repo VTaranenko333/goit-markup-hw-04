@@ -6,6 +6,7 @@ body {
 
 
 
+
 a {
   text-decoration: none;
 }
@@ -144,7 +145,8 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 188px 0
 }
 
@@ -378,4 +380,11 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+
+@media (max-width: 1440px) {
+  .main-hero-section {
+    background-size: auto 100%;
+  }
 }
