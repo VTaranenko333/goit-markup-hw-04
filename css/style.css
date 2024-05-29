@@ -287,16 +287,19 @@ header {
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
   width: 264px;
   height: 112px;
 }
 
 .advantages-list-div {
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 /* thirs section */
