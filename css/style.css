@@ -1,3 +1,5 @@
+/* #region Global */
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
@@ -56,6 +58,9 @@ img {
   margin: 0 auto;
 }
 
+/* #endregion */
+
+/* #region Header */
 /* Header */
 
 .header {
@@ -148,7 +153,9 @@ header {
 } */
 
 
-/*---------------------------- address -----------------------------------*/
+
+/* #region Address */
+
 .address {
   font-style: normal;
 }
@@ -172,10 +179,11 @@ header {
   color: #404bbf;
 }
 
+/* #endregion */
 
+/* #endregion */
 
-/* first section */
-
+/* #region First section */
 
 .main-hero-section {
   background: #2e2f42;
@@ -229,7 +237,9 @@ header {
   background-color: #404BBF
 }
 
-/* second section */
+/* #endregion */
+
+/* #region Second section */
 
 .visually-hidden {
   position: absolute;
@@ -305,7 +315,9 @@ header {
 
 }
 
-/* thirs section */
+/* #endregion */
+
+/* #region Thirs section */
 
 .team-section {
   padding: 120px 0;
@@ -398,7 +410,10 @@ header {
   fill: #f4f4fd;
 }
 
-/* forth section */
+/* #endregion */
+
+/* #region Forth section */
+
 
 .portfolio-section {
   padding-top: 120px;
@@ -482,7 +497,10 @@ header {
   transform: translateY(0%);
 }
 
-/* footer */
+/* #endregion */
+
+/* #region Footer */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -572,9 +590,14 @@ header {
   fill: #f4f4fd;
 }
 
+/* #endregion */
+
+/* #region Media things */
 
 /* @media (max-width: 1440px) {
   .main-hero-section {
     background-size: auto 100%;
   }
 } */
+
+/* #endregion */
